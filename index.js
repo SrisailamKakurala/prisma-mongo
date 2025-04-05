@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 require('dotenv').config();
 
-const { limiter } = require('./limiter');
+const limiter = require('./limiter');
 
 const app = express();
 
