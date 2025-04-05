@@ -1,0 +1,33 @@
+{
+  "name": "prisma-mongo",
+  "version": "1.0.0",
+  "description": "api with prisma as a orm and mongodb as a database!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrisailamKakurala/prisma-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SrisailamKakurala/prisma-mongo/issues"
+  },
+  "homepage": "https://github.com/SrisailamKakurala/prisma-mongo#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "rate-limiter": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.5.0"
+  }
+}
